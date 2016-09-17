@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/g1"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Google News" />
+
+        <item android:title="Sports">
+            <menu>
+
+            <item
+                android:id="@+id/s1"
+                android:icon="@drawable/ic_menu_send"
+                android:title="ESPN Cricket"/>
+            <item
+                android:id="@+id/s2"
+                android:icon="@drawable/ic_menu_send"
+                android:title="SkySports Football"/>
+            <item
+                android:id="@+id/s3"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Yahoo Sports"/>
+            </menu>
+
+            </item>
+
+        <item android:title="Business">
+            <menu>
+            <item
+                android:id="@+id/b1"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Forbes"/>
+            <item
+                android:id="@+id/b2"
+                android:icon="@drawable/ic_menu_send"
+                android:title="CNBC"/>
+            <item
+                android:id="@+id/b3"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Bloomberg"/>
+            </menu>
+
+            </item>
+        <item android:title="Weather">
+            <menu>
+
+            <item
+                android:id="@+id/wr1"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Weather.com"/>
+            <item
+                android:id="@+id/wr2"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Accuweather"/>
+            </menu>
+
+
+            </item>
+        <item android:title="Technology">
+            <menu>
+
+            <item
+                android:id="@+id/t1"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Techcrunch"/>
+            <item
+                android:id="@+id/t2"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Wired"/>
+            <item
+                android:id="@+id/t3"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Mashable"/>
+            </menu>
+
+            </item>
+
+    <item android:title="Entertainment">
+        <menu>
+
+        <item
+            android:id="@+id/e1"
+            android:icon="@drawable/ic_menu_send"
+            android:title="ENews"/>
+        <item
+            android:id="@+id/e2"
+            android:icon="@drawable/ic_menu_send"
+            android:title="IndiaTimes"/>
+        </menu>
+
+    </item>
+
+<item android:title="Music">
+    <menu>
+
+<item
+    android:id="@+id/m1"
+    android:icon="@drawable/ic_menu_send"
+    android:title="Spin"/>
+<item
+    android:id="@+id/m2"
+    android:icon="@drawable/ic_menu_send"
+    android:title="MTV"/>
+<item
+    android:id="@+id/m3"
+    android:icon="@drawable/ic_menu_send"
+    android:title="BillBoard"/>
+    </menu>
+
+</item>
+    </group>
+
+
+        <!--<item android:title="World Newspapers">
+            <menu-->
+                <item android:title="America">
+            <menu>
+        <item
+            android:id="@+id/w1"
+            android:icon="@drawable/ic_menu_send"
+            android:title="The Washington Post"/>
+        <item
+            android:id="@+id/w2"
+            android:icon="@drawable/ic_menu_send"
+            android:title="New York Times"/>
+        <item
+            android:id="@+id/w3"
+            android:icon="@drawable/ic_menu_send"
+            android:title="USA Today"/>
+        <item
+            android:id="@+id/w4"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Wall Street Journal"/>
+                </menu>
+                </item>
+                <item android:title="United Kingdom">
+                    <menu>
+        <item
+            android:id="@+id/w5"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Reuters"/>
+        <item
+            android:id="@+id/w6"
+            android:icon="@drawable/ic_menu_send"
+            android:title="The Guardian"/>
+        <item
+            android:id="@+id/w7"
+            android:icon="@drawable/ic_menu_send"
+            android:title="The Daily Mail"/>
+        <item
+            android:id="@+id/w8"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Daily Mirror"/>
+                        </menu>
+                </item>
+                <item android:title="Japan">
+                    <menu>
+        <item
+            android:id="@+id/w9"
+            android:icon="@drawable/ic_menu_send"
+            android:title="The Japan Times"/>
+        <item
+            android:id="@+id/w10"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Asahi Shimbun"/>
+                        </menu>
+                </item>
+                <item android:title="China">
+                    <menu>
+        <item
+            android:id="@+id/w11"
+            android:icon="@drawable/ic_menu_send"
+            android:title="China Daily"/>
+        <item
+            android:id="@+id/w12"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Shanghai Daily"/>
+                        </menu>
+                </item>
+
+                <item android:title="France">
+                    <menu>
+        <item
+            android:id="@+id/w13"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Le Monde"/>
+        <item
+            android:id="@+id/w14"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Le Figaro"/>
+                         </menu>
+                </item>
+                <item android:title="Australia">
+                    <menu>
+        <item
+            android:id="@+id/w15"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Sydney Morning Herald"/>
+        <item
+            android:id="@+id/w16"
+            android:icon="@drawable/ic_menu_send"
+            android:title="The AGE"/>
+                        </menu>
+                </item>
+                <item android:title="Germany">
+                    <menu>
+        <item
+            android:id="@+id/w17"
+            android:icon="@drawable/ic_menu_send"
+            android:title="La Republica"/>
+        <item
+            android:id="@+id/w18"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Bild" />
+                        </menu>
+                </item>
+                <item android:title="Brazil">
+                    <menu>
+        <item
+            android:id="@+id/w19"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Super Noticia"/>
+                        </menu>
+                </item>
+                <item android:title="Middle East">
+                    <menu>
+                        <item
+                            android:id="@+id/w20"
+                            android:icon="@drawable/ic_menu_send"
+                            android:title="Al-Awsat"/>
+                        <item
+                            android:id="@+id/w21"
+                            android:icon="@drawable/ic_menu_send"
+                            android:title="Al Monitor"/>
+
+                    </menu>
+                </item>
+
+                <item android:title="SouthEast Asia">
+                    <menu>
+                        <item
+                            android:id="@+id/w22"
+                            android:icon="@drawable/ic_menu_send"
+                            android:title="Channel NewsAsia"/>
+                        <item
+                            android:id="@+id/w23"
+                            android:icon="@drawable/ic_menu_send"
+                            android:title="Jakarta Post"/>
+                        <item
+                            android:id="@+id/w24"
+                            android:icon="@drawable/ic_menu_send"
+                            android:title="Bangkok Post"/>
+
+                    </menu>
+                </item>
+
+                <item android:title="Africa">
+                    <menu>
+                        <item
+                            android:id="@+id/w25"
+                            android:icon="@drawable/ic_menu_send"
+                            android:title="All Africa"/>
+                        <item
+                            android:id="@+id/w26"
+                            android:icon="@drawable/ic_menu_send"
+                            android:title="News 24"/>
+
+                    </menu>
+                </item>
+
+            <!--/menu>
+
+        </item-->
+
+
+
+    <item android:title="India">
+        <menu>
+
+            <item
+                android:id="@+id/i1"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Times of India" />
+            <item
+                android:id="@+id/i2"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Hindustan Times" />
+            <item
+                android:id="@+id/i3"
+                android:icon="@drawable/ic_menu_send"
+                android:title="DNA India" />
+            <item
+                android:id="@+id/i4"
+                android:icon="@drawable/ic_menu_send"
+                android:title="NDTV India" />
+            <item
+                android:id="@+id/i5"
+                android:icon="@drawable/ic_menu_send"
+                android:title="The Hindu" />
+
+            <item
+                android:id="@+id/i6"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Indian Express" />
+            <item
+                android:id="@+id/i7"
+                android:icon="@drawable/ic_menu_send"
+                android:title="MidDay" />
+            <item
+                android:id="@+id/i8"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Mumbai Mirror" />
+            <item
+                android:id="@+id/i9"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Dainik Bhaskar" />
+            <item
+                android:id="@+id/i10"
+                android:icon="@drawable/ic_menu_send"
+                android:title="India Today" />
+            <item
+                android:id="@+id/i11"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Economic Times" />
+
+    </menu>
+
+    </item>
+
+
+    </menu>

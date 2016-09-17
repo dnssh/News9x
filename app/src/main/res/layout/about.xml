@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/side_nav_bar"
+    android:padding="9dp"
+    android:scrollIndicators="top|bottom"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="News9X"
+        android:id="@+id/textView"
+        android:layout_weight="0.05"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:textColorHighlight="#ffffff"
+        android:textColor="#000004"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="9dp"
+        android:paddingRight="9dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This app is an all-in-one news app consisting of 50+ leading World newspapers  with 10+ Indian news dailies.It even supports offline caching which means that your favourite newspapers can even be read offline!. Any suggestions or  ideas are Welcome.For any internship opportunities or queries feel free to mail me at:"
+        android:id="@+id/textView2"
+        android:textAlignment="center"
+        android:textSize="23dp"
+        android:textColor="#050505"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:textColorHighlight="#fc0505"
+        android:typeface="sans"
+        android:shadowColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="devanshshah936@hotmail.com"
+        android:id="@+id/textView3"
+        android:autoLink="email"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05"
+        android:textColor="#ffff02"
+        android:textSize="20dp"
+        android:textStyle="normal|bold|italic" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="made with love by Devansh Shah"
+        android:id="@+id/textView4"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:autoText="false"
+        android:paddingLeft="45dp"
+        android:paddingRight="45dp"
+        android:textStyle="bold|italic" />
+
+
+</LinearLayout>
